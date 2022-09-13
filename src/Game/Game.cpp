@@ -52,6 +52,9 @@ void Game::handleEvent()
 void Game::update()
 {
     this->updateDt();
+    if (!this->_window->hasFocus()){
+        return;
+    }
     this->handleEvent();
     if (!this->_states.get()->empty()){
         this->_states.get()->top()->update(this->_deltaTime, this->_window, this->_window);

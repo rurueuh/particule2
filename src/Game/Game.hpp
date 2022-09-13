@@ -10,6 +10,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <bits/stdc++.h>
+#include "SFML.hpp"
 #include "State.hpp"
 #include "GameState.hpp"
 #include "LaunchState.hpp"

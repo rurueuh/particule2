@@ -12,7 +12,7 @@
 #include "Particules.hpp"
 #include "Fps.hpp"
 
-#define NB_PARTICULES_10000 20
+#define NB_PARTICULES_10000 40
 
 class GameState : public State {
     public:
